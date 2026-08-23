@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataFrame = pd.read_csv('data/train-test-cleaned.csv')
+dataFrame = pd.read_csv('data/train-test.csv')
 
 print("Missing values:")
 print(dataFrame.isnull().sum())

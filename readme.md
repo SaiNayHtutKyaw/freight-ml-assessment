@@ -67,7 +67,8 @@ python score.py --predictions data/validation_predictions.csv --december-predict
 - `models/encoders.pkl`: Label encoders
 
 ## Key Findings
-- Distance is dominant predictor (85.8% importance)
-- Polynomial and interaction features matter
-- Seasonal effects are minimal (1.4% importance)
-- Model is stable and robust
+- The dataset had 48,000 loads
+- Prices ranged from $57 to $25,533 depending on distance
+- Found several data quality problems that needed fixing
+- Built a model that predicts prices with 84% accuracy
+- Model is stable and doesn't make crazy predictions
